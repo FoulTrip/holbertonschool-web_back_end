@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""wait_n should return the list of all 
-the delays (float values). The list of 
-the delays should be in ascending order 
+"""wait_n should return the list of all
+the delays (float values). The list of
+the delays should be in ascending order
 without using sort() because of concurrency."""
 
 import asyncio

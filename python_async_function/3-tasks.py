@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""that takes an integer max_delay 
+"""that takes an integer max_delay
 and returns a asyncio.Task."""
 
 import asyncio
