@@ -6,5 +6,5 @@ export default function guardrail(mathFunction) {
   } catch (error) {
     valueArray = error.toString();
   }
-  return [valueArray, "Guardrail was processed"];
+  return [valueArray, 'Guardrail was processed'];
 }
