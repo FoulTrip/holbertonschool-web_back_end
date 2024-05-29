@@ -1,4 +1,4 @@
-import Currency from "./3-currency";
+import Currency from './3-currency';
 
 export default class Pricing {
   constructor(amount, currency) {
@@ -11,8 +11,8 @@ export default class Pricing {
   }
 
   set amount(value) {
-    if (typeof value !== "number") {
-      throw new TypeError("Value must be an integer");
+    if (typeof value !== 'number') {
+      throw new TypeError('Value must be an integer');
     }
     this._amount = value;
   }
@@ -23,7 +23,7 @@ export default class Pricing {
 
   set currency(value) {
     if (!(value instanceof Currency)) {
-      throw new TypeError("Value must be an integer");
+      throw new TypeError('Value must be an integer');
     }
     this._currency = value;
   }

@@ -13,12 +13,12 @@ export default class HolbertonClass {
   }
 
   [Symbol.toPrimitive](hint) {
-    if (hint === "number") {
+    if (hint === 'number') {
       return this._size;
-    } /* eslint-disable no-else-return */ else if (hint === "string") {
+    } /* eslint-disable no-else-return */ else if (hint === 'string') {
       return this._location;
     } else {
-      throw new TypeError("Value not find");
+      throw new TypeError('Value not find');
     }
   }
 }
